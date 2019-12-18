@@ -29,6 +29,7 @@ h1{
 }
 
 button {
+    height: 100%;
     text-transform: uppercase;
     border: none;
     background-color: transparent;
@@ -38,8 +39,12 @@ button {
     letter-spacing: 2px;
     
 }
-button:hover{
+.option:hover{
     background-color: rgb(119, 119, 250);
+    color: #fff;
+}
+.selected{
+    background-color:rgb(119, 119, 250);
     color: #fff;
 }
 

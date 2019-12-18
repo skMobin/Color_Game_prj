@@ -2,11 +2,37 @@ colors = generateRandomcolors(6)
 var boxes = document.querySelectorAll('.colorpallete');  
 var colordisplay = document.querySelector('.rgb-value');
 var messagedisplay = document.querySelector('.message');
+var hardbtn = document.querySelector('.hard');
+var easybtn = document.querySelector('.easy');
 var header = document.querySelector(".head");
 var option = document.querySelector(".option");
 var colorpicked = pickcolor();
 colordisplay.textContent = colorpicked;
 var colorclicked = 0;
+
+easybtn.addEventListener('click',function(){
+    easybtn.classList.add("selected");
+    hardbtn.classList.remove("selected");
+    colors = generateRandomcolors(3);
+    console.log(colors)
+    colorpicked = pickcolor();
+    colordisplay.textContent = colorpicked;
+    console.log(colorpicked);
+    for (i = 0; i < boxes.length/3; i++) {
+        boxes[i].style.backgroundColor = colors[i];
+        console.log(colors[i]);
+    }
+    boxes[3].style.backgroundColor = "#232323";
+    boxes[4].style.backgroundColor = "#232323";
+    boxes[5].style.backgroundColor = "#232323";
+
+})
+
+hardbtn.addEventListener("click", function(){
+    hardbtn.classList.add("selected"); 
+    easybtn.classList.remove("selected");
+});
+
 for(i=0;i<boxes.length;i++){
     boxes[i].style.backgroundColor = colors[i];
     boxes[i].addEventListener("click",function(){
