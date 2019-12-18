@@ -27,7 +27,7 @@ for(i=0;i<boxes.length;i++){
 option.addEventListener("click", function () {
     
     option.textContent = "new Colors";
-    header.style.backgroundColor = "rgb(119, 119, 250)";
+    header.style.backgroundColor = "rgb(119, 114, 250)";
     colors = generateRandomcolors(6);
     colorpicked = pickcolor();
     colordisplay.textContent = colorpicked;
