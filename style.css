@@ -44,15 +44,15 @@ button:hover{
 }
 
 .colorpallete{
-    width: 15%;
-    padding-top: 15%;
+    width: 30%;
+    padding-top: 30%;
     background-color: rgb(255,255,255);
     float: left;
     margin: 1.66%;
 }
 
 .container{
-    max-width: 1024px;
+    max-width: 600px;
     margin:  0 auto;
 
 }
