@@ -1,0 +1,64 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+body{
+    background-color: #232323;
+}
+.head{
+    height: em;
+    background-color: rgb(119, 119, 250);
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+h1{
+    text-transform: uppercase;
+    text-align: center;
+    color: #fff;
+
+}
+.rgb-value{
+    font-size: 4rem;
+}
+.game-info{
+    height: 30px;
+    background-color: white;
+    display: flex;
+    justify-content: space-around;
+}
+/*.message{
+    text-transform: uppercase;
+    font-weight: 700;
+    color: rgb(119, 119, 250);
+    letter-spacing: 2px;
+    
+}
+button {
+    text-transform: uppercase;
+    border: none;
+    background-color: transparent;
+    outline: none;
+    font-weight: 700;
+    color: rgb(119, 119, 250);
+    letter-spacing: 2px;
+    
+}
+button:hover{
+    background-color: rgb(119, 119, 250);
+    color: #fff;
+}
+
+.box{
+    width: 30%;
+    padding-top: 30%;
+    background-color: rgb(189, 4, 189);
+    float: left;
+    margin: 1.66%;
+}
+
+.container{
+    max-width: 600px;
+    margin: 0 auto;
+
+}*/
